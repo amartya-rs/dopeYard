@@ -1,0 +1,14 @@
+.auth-body {
+    display: grid;
+    grid-template-rows: 5rem 1fr;
+    height: 100vh;
+}
+
+.auth-form {
+    align-self: center;
+    justify-self: center;
+}
+
+.auth-form{
+    gap: 1rem;
+}

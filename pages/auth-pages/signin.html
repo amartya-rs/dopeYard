@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dopyard | Signin</title>
+    <link rel="stylesheet" href="https://oxyelements.netlify.app/all-components/components.css">
+    <link rel="stylesheet" href="./signin.css">
+</head>
+<body class="auth-body">
+
+    <!--top-nav-bar-->
+    <nav class="main-nav">
+        <a class="h5 brand" href="">dopeYard</a>
+        <div class='search-bar'>
+            <input class='text-input' type="text" placeholder="Search">
+        </div>
+        <ul class="link-wrapper">
+            <li><a class="link" href="">Home</a></li>
+            <li><a class="link" href="">Products</a></li>
+            <li><a class='icon-link' href=""><img icon src='/assets/svg/user.svg'></a></li>
+            <li><a class='icon-link' href=""><img icon src='/assets/svg/heart-white.svg'></a></li>
+            <li><a class='icon-link' href=""><img icon src='/assets/svg/cart.svg'></a></li>
+        </ul>
+    </nav>
+
+    <!--sign-in-form-->
+    <form class="auth-form">
+        <div class="form-header">
+            <h5>LOGIN</h5>
+            <p class='p-sm'>Please enter your email and password.</p>
+        </div>
+        <div class="form-field">
+            <div>
+                <label class='h6 font-medium' for="user-email">E-mail*</label>
+                <input class='text-input' type="email" name="user-email" placeholder="kanye@xyz.com">
+            </div>
+            <div>
+                <label class='h6 font-medium' for="user-password">Password*</label>
+                <input name='user-password' class='text-input' type="password" placeholder="***************">
+            </div>
+        </div>
+        <button class='button primary' type="submit">LOGIN</button>
+        <div class="form-footer">
+            <p class='p-sm'>Not a user yet?</p>
+            <a href="./signup.html">Sign Up</a>
+        </div>
+    </form>
+
+</body>
+</html>

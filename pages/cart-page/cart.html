@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dopeyard | Cart</title>
+    <link rel="stylesheet" href="https://oxyelements.netlify.app/all-components/components.css">
+    <link rel="stylesheet" href="./cart.css">
+</head>
+<body>
+
+    <!-----top-nav-bar----->
+    <nav class="main-nav">
+        <a class="h5 brand" href="/index.html">dopeYard</a>
+        <div class='search-bar'>
+            <input class='text-input' type="text" placeholder="Search">
+        </div>
+        <ul class="link-wrapper">
+            <li><a class="link" href="/index.html">Home</a></li>
+            <li><a class="link" href="/pages/product-page/products.html">Products</a></li>
+            <li><a class='icon-link' href="/pages/auth-pages/signin.html"><img icon src='/assets/svg/user.svg'></a></li>
+            <li><a class='icon-link' href="/pages/wishlist-page/wishlist.html"><img icon src='/assets/svg/heart-white.svg'></a></li>
+            <li><a class='icon-link' href="/pages/cart-page/cart.html"><img icon src='/assets/svg/cart.svg'></a></li>
+        </ul>
+    </nav>
+
+    <!-----page-heading----->
+    <h4 class="my-3">My Cart</h4>
+
+    <!------main-section------>
+    <main>
+        <section class="cart-items">
+            <div class='card horizontal'>
+                <img class='card-img' src='/assets/image/em_tshirt_1.png'>
+                <div class='card-content'>
+                    <h6 class='font-semibold'>ARREST T-SHIRT</h6>
+                    <P class='p-sm'>100% Cotton Machine wash warm, inside out with like colors, only use
+                        non-chlorine bleach, tumble dry low, do not iron decoration</P>
+                    <div class='price-wrapper'>
+                        <h5>₹ 1499</h5>
+                        <h6 class='strike-through'>₹ 2999</h6>
+                        <h6 class='discount-text'>₹50% off </h6>
+                    </div>
+                    <div class='cart-quantity'>
+                        <label for='quantity'>Quantity: </label>
+                        <button class='font-medium'>+</button>
+                        <input value='1' class='quantity-input h6 font-normal' name='quantity'>
+                        <button class='font-medium'>-</button>
+                    </div>
+                    <button class='button secondary'><span>REMOVE FROM CART</span></button>
+                    <button class='button outline-secondary'>WISHLIST</button>
+                </div>
+            </div>
+
+            <div class='card horizontal'>
+                <img class='card-img' src='/assets/image/em_hat_1.jpg'>
+                <div class='card-content'>
+                    <h6 class='font-semibold'>NAME TAG PATCH DAD HAT</h6>
+                    <P class='p-sm'>100% Cotton Machine wash warm, inside out with like colors, only use
+                        non-chlorine bleach, tumble dry low, do not iron decoration</P>
+                    <div class='price-wrapper'>
+                        <h5>₹ 999</h5>
+                        <h6 class='strike-through'>₹ 1999</h6>
+                        <h6 class='discount-text'>₹50% off </h6>
+                    </div>
+                    <div class='cart-quantity'>
+                        <label for='quantity'>Quantity: </label>
+                        <button class='font-medium'>+</button>
+                        <input value='1' class='quantity-input h6 font-normal' name='quantity'>
+                        <button class='font-medium'>-</button>
+                    </div>
+                    <button class='button secondary'><span>REMOVE FROM CART</span></button>
+                    <button class='button outline-secondary'>WISHLIST</button>
+                </div>
+            </div>
+        </section>
+        
+        <div class="price-card shadow p-4">
+            <div class="card-field">
+                <h6>PRICE DETAILS</h6>
+            </div>
+            <hr class="my-1">
+            <div class="card-field">
+                <span>Price (2)</span>
+                <span>₹ 4998</span>
+            </div>
+            <div class="card-field">
+                <span>Discount</span>
+                <span>- ₹ 2500</span>
+            </div>
+            <div class="card-field">
+                <span>Delivery Charges</span>
+                <span>₹ 399</span>
+            </div>
+            <hr class="my-1">
+            <div class="card-field">
+                <h6>TOTAL</h6>
+                <span>₹ 2897</span>
+            </div>
+            <hr class="my-1">
+            <div class="my-2">
+                You will save ₹ 2500 on this order
+            </div>
+            <button class="button primary mt-1">PLACE ORDER</button>
+        </div>
+    </main>
+
+    <!-----footer----->
+    <footer class="h6 font-medium mt-6">
+        Made with <img class='mx-2' src="/assets/svg/heart-white.svg" alt="heart"> by amartyars
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,74 @@
+body {
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: 4.5rem 1fr auto;
+    grid-template-columns: 15rem 1fr;
+    grid-template-areas: 
+    'nav nav'
+    'aside main'
+    'footer footer';
+}
+
+.main-nav {
+    grid-area: nav;
+}
+
+aside {
+    background: var(--WHITE);
+    grid-area: aside;
+}
+
+.aside-heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+main {
+    grid-area: main;
+}
+
+.grid-3-column {
+    grid-template-columns: repeat(auto-fit, minmax(17rem, 1fr));
+}
+
+
+/*list styling*/
+aside li {
+    margin-bottom: 10px ;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+
+/*hover effect on cards*/
+.card:hover {
+    cursor: pointer;
+    box-shadow: 0 0 10px 5px var(--GREY);
+}
+
+.card:hover .overlay {
+    cursor: no-drop;
+}
+
+.sold-out:hover {
+    box-shadow:  none;
+}
+
+
+/*footer styling*/
+footer {
+    grid-area: footer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: var(--WHITE);
+    height: 3rem;
+    background: var(--PRIMARY-COLOR);
+}
+
+hr {
+    margin: 1rem 0;
+}

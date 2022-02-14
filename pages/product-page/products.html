@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dopeyard | Products</title>
+    <link rel="stylesheet" href="https://oxyelements.netlify.app/all-components/components.css">
+    <link rel="stylesheet" href="./products.css">
+</head>
+
+<body>
+
+    <!-----top-nav-bar----->
+    <nav class="main-nav">
+        <a class="h5 brand" href="/index.html">dopeYard</a>
+        <div class='search-bar'>
+            <input class='text-input' type="text" placeholder="Search">
+        </div>
+        <ul class="link-wrapper">
+            <li><a class="link" href="/index.html">Home</a></li>
+            <li><a class="link" href="/pages/product-page/products.html">Products</a></li>
+            <li><a class='icon-link' href="/pages/auth-pages/signin.html"><img icon src='/assets/svg/user.svg'></a></li>
+            <li><a class='icon-link' href="/pages/wishlist-page/wishlist.html"><img icon
+                        src='/assets/svg/heart-white.svg'></a></li>
+            <li><a class='icon-link' href="/pages/cart-page/cart.html"><img icon src='/assets/svg/cart.svg'></a></li>
+        </ul>
+    </nav>
+
+    <!--side-nav-bar-->
+    <aside class="px-4 py-1 my-2">
+        <div class="aside-heading">
+            <h5>Filters</h5>
+            <button class='button-link'>Clear</button>
+        </div>
+        <hr>
+        <h6 class="my-1">Category</h6>
+        <ul class="side-nav font-medium pl-1">
+            <li>
+                <input name="category-1" type="checkbox">
+                <label for="category-1">T-shirt</label>
+            </li>
+            <li>
+                <input name="category-2" type="checkbox">
+                <label for="category-2">Hoodie</label>
+            </li>
+            <li>
+                <input name="category-3" type="checkbox">
+                <label for="category-3">Cap</label>
+            </li>
+            <li>
+                <input name="category-4" type="checkbox">
+                <label for="category-4">Longsleeve</label>
+            </li>
+        </ul>
+        <hr>
+        <h6 class="my-1">Rating</h6>
+        <ul class="side-nav font-medium pl-1">
+            <li>
+                <input class='rating-4' name="rating" type="radio">
+                <label for="rating-4">4 stars and above</label>
+            </li>
+            <li>
+                <input class='rating-3' name="rating" type="radio">
+                <label for="rating-3">3 stars and above</label>
+            </li>
+            <li>
+                <input class='rating-2' name="rating" type="radio">
+                <label for="rating-2">2 stars and above</label>
+            </li>
+            <li>
+                <input class='rating-1' name="rating" type="radio">
+                <label for="rating-1">1 star and above</label>
+            </li>
+        </ul>
+        <hr>
+        <h6 class="my-1">Price</h6>
+        <ul class="side-nav font-medium pl-1">
+            <li>
+                <input class='price-1' name="price" type="radio">
+                <label for="price-1">High to low</label>
+            </li>
+            <li>
+                <input class='price-2' name="price" type="radio">
+                <label for="price-2">Low to High</label>
+            </li>
+        </ul>
+    </aside>
+
+    <!--main-section-->
+    <main class="p-6 grid-3-column">
+        <div class='card vertical'>
+            <img class='card-img' src='/assets/image/em_hat_1.jpg'>
+            <button class='corner-button'><img src="/assets/svg/heart.svg" alt="heart icon"></button>
+            <div class='card-content'>
+                <h6 class='font-semibold'>NAME TAG PATCH DAD HAT</h6>
+                <div class='price-wrapper'>
+                    <h5>₹ 999</h5>
+                    <h6 class='strike-through'>₹ 1999</h6>
+                </div>
+                <button class='button button-icons primary'> <img class='icon' src="/assets/svg/cart.svg"
+                        alt="cart icon"><span>ADD TO CART</span></button>
+            </div>
+        </div>
+        <div class='card vertical'>
+            <img class='card-img' src='/assets/image/em_hoodie_1.png'>
+            <button class='corner-button'><img src="/assets/svg/heart.svg" alt="heart icon"></button>
+            <div class='card-content'>
+                <h6 class='font-semibold'>THE WAY I AM HOODIE</h6>
+                <div class='price-wrapper'>
+                    <h5>₹ 3499</h5>
+                    <h6 class='strike-through'>₹ 4999</h6>
+                </div>
+                <button class='button button-icons primary'> <img class='icon' src="/assets/svg/cart.svg"
+                        alt="cart icon"><span>ADD TO CART</span></button>
+            </div>
+        </div>
+        <div class='card vertical'>
+            <img class='card-img' src='/assets/image/em_hat_2.jpg'>
+            <button class='corner-button'><img src="/assets/svg/heart.svg" alt="heart icon"></button>
+            <div class='card-content'>
+                <h6 class='font-semibold'>SSLP DAD HAT</h6>
+                <div class='price-wrapper'>
+                    <h5>₹ 999</h5>
+                    <h6 class='strike-through'>₹ 1999</h6>
+                </div>
+                <button class='button button-icons primary'> <img class='icon' src="/assets/svg/cart.svg"
+                        alt="cart icon"><span>ADD TO CART</span></button>
+            </div>
+        </div>
+        <div class='card vertical'>
+            <img class='card-img' src='/assets/image/em_hoodie_2.jpg'>
+            <button class='corner-button'><img src="/assets/svg/heart.svg" alt="heart icon"></button>
+            <div class='card-content'>
+                <h6 class='font-semibold'>TOP GUNNER PATCH HOODIE</h6>
+                <div class='price-wrapper'>
+                    <h5>₹ 3499</h5>
+                    <h6 class='strike-through'>₹ 4999</h6>
+                </div>
+                <button class='button button-icons primary'> <img class='icon' src="/assets/svg/cart.svg"
+                        alt="cart icon"><span>ADD TO CART</span></button>
+            </div>
+        </div>
+        <div class='card vertical'>
+            <img class='card-img' src='/assets/image/em_hoodie_2.jpg'>
+            <img class='card-badge' src="/assets/svg/discount.svg" alt="discount icon">
+            <button class='corner-button'><img src="/assets/svg/heart.svg" alt="heart icon"></button>
+            <div class='card-content'>
+                <h6 class='font-semibold'>TOP GUNNER PATCH HOODIE</h6>
+                <div class='price-wrapper'>
+                    <h5>₹ 3499</h5>
+                    <h6 class='strike-through'>₹ 4999</h6>
+                </div>
+                <button class='button button-icons primary'> <img class='icon' src="/assets/svg/cart.svg"
+                        alt="cart icon"><span>ADD TO CART</span></button>
+            </div>
+        </div>
+        <div class='card vertical sold-out'>
+            <img class='card-img' src='/assets/image/em_tshirt_1.png'>
+            <button class='corner-button'><img src="/assets/svg/heart.svg" alt="heart icon"></button>
+            <div class='card-content'>
+                <h6 class='font-semibold'>EMINEM RECOVERY T-shirt</h6>
+                <h5>₹ 1499</h5>
+                <button class='button button-icons primary'> <img class='icon' src="/assets/svg/cart.svg"
+                    alt="cart icon"><span>ADD TO CART</span></button>
+            </div>
+            <div class='overlay'><img class='overlay-img' src="/assets/image/sold-out-img.png" alt="sold out img">
+            </div>
+        </div>
+    </main>
+
+    <!-----footer----->
+    <footer class="h6 font-medium mt-6">
+        Made with <img class='mx-2' src="/assets/svg/heart-white.svg" alt="heart"> by amartyars
+    </footer>
+
+</body>
+
+</html>

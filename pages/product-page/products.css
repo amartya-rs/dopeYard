@@ -18,7 +18,7 @@ aside {
     grid-area: aside;
 }
 
-aside div{
+.aside-heading {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -34,7 +34,7 @@ main {
 
 
 /*list styling*/
-li {
+aside li {
     margin-bottom: 10px ;
     display: flex;
     align-items: center;

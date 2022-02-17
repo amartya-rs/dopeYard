@@ -53,6 +53,7 @@ header:hover .overlay {
 /*featured section*/
 .featured {
     display: flex;
+    flex-wrap: wrap;
     gap: 2.25rem;
     justify-content: center;
 }
